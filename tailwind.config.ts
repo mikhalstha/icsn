@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom brand colors
+				icsn: {
+					primary: '#1E3A8A', // Deep blue
+					secondary: '#3B82F6', // Lighter blue
+					accent: '#F59E0B', // Orange accent
+					light: '#F3F4F6', // Light gray
+					dark: '#1F2937', // Dark gray
 				}
+			},
+			fontFamily: {
+				sans: ['Open Sans', 'sans-serif'],
+				roboto: ['Roboto', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
