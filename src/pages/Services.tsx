@@ -2,7 +2,7 @@
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { Monitor, Printer, Camera, Server, Tool, Cpu, Clock, Shield } from 'lucide-react';
+import { Monitor, Printer, Camera, Server, Wrench, Cpu, Clock, Shield } from 'lucide-react';
 
 const Services = () => {
   return (
@@ -148,7 +148,7 @@ const Services = () => {
             {/* Additional Service 1 */}
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <div className="text-icsn-primary mx-auto mb-4">
-                <Tool size={40} className="mx-auto" />
+                <Wrench size={40} className="mx-auto" />
               </div>
               <h3 className="text-xl font-bold mb-2">Network Setup</h3>
               <p className="text-gray-600">
